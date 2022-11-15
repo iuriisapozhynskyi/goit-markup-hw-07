@@ -1,0 +1,39 @@
+.box {
+  display: flex;
+  justify-content: center;
+}
+
+.section.todo {
+  padding-top: 0;
+}
+
+/* .box .item:not(:last-child) {
+  margin-right: 30px;
+} */
+.box .item+.item {
+  margin-left: 30px;
+}
+
+.specialty-item {
+  position: relative;
+}
+
+.specialty-title {
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $white-color;
+  background-color: rgba(47, 48, 58, 0.8);
+}

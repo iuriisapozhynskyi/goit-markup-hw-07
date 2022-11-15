@@ -1,0 +1,76 @@
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.cards .team-card+.team-card {
+  margin-left: 30px;
+}
+
+.cards .team-card {
+  width: 270px;
+}
+
+.card {
+  padding: 30px;
+}
+
+.card .team-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.card .section-text {
+  text-align: center;
+}
+
+.section-text {
+  color: $primary-text-color;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}
+
+.team-bg {
+  background-color: $secondery-backgrund-color;
+}
+
+.card-bg {
+  background-color: $white-color;
+}
+
+.team-title {
+  color: $blak-color;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.soc-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.soc-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  color: #afb1b8;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.soc-link:hover,
+.soc-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.net-icon {
+  fill: currentColor;
+}
