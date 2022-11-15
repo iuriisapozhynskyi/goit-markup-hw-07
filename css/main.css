@@ -210,14 +210,8 @@ img {
   margin-right: 0;
 }
 
-.logo-light,
-.logo {
+.logo-light {
   color: #ffffff;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  font-family: Raleway;
-  text-decoration: none;
 }
 
 .hero {
