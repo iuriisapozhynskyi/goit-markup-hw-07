@@ -5,6 +5,7 @@
       "extensionName": ".css",
       "savePath": "/css"
     },
+    
     {
       "format": "compressed",
       "extensionName": ".min.css",
